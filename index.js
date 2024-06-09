@@ -82,7 +82,6 @@ app.patch('/person/:id', async (req, res) => {
 
     res.status(200).json(person)
   } catch (error) {
-    //test
     res.status(500).json({ erro: error })
   }
 })
